@@ -1,0 +1,131 @@
+.header{
+    width: 100%;
+    color: var(--main-color);
+    
+
+}
+.header_box{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding-left: 24px;
+    padding-right: 24px;
+   
+}
+
+.header_logo {
+    padding-top: 10px;
+    margin: 20px 0;
+    width: 117px;
+    max-width: 100%
+}
+.header_nav{
+    font-size: 1em;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+   
+   
+
+}
+.link{
+    padding:0 15px;
+    text-decoration: none;
+    color: var(--main-color);
+    font-weight: 200;
+}
+.hero{
+    position: relative; 
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    text-align: left;
+    padding-top: 100px;
+    
+}
+.curve-line{
+    display: block;
+    position: relative;
+}
+@media (min-width:767px){
+    .hero{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    #bg-pic1{
+        max-width: 50%;
+        padding: 0 -100px;
+    }
+}
+.hero_main{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+h1{
+    font-family: Poppins, sans-serif;
+    font: weight 100%;;
+    text-transform: none;
+    text-decoration: none;
+    font-style: normal;
+    margin-top: 20px;
+    font-size: 42px;
+
+}
+.jack{
+    color: var(--contrast-color);
+}
+.hero_p{
+    margin-top:35px;
+    display: block;
+    color: var(--add-color);
+}
+.hero_btns{
+margin-top: 35px;
+font-size: 12px;
+line-height: 1em;
+font-weight: normal;
+margin-bottom: 35px;
+
+
+
+}
+.hero_btn-story{
+margin: 10px;
+color: white;
+background: var(--contrast-color);
+padding: 19px 21px;
+text-transform: uppercase; 
+border:none;
+text-decoration: none;
+text-align: center;
+background-position: 50%;
+font-size: normal;
+}
+.hero_btn-ask{
+    margin: 10px;
+color: var(--main-color);
+background: white;
+padding: 19px 21px;
+text-transform: uppercase; 
+border-width: 1px;
+border-color: #f2efe9;
+border-style: solid;
+text-decoration: none;
+text-align: center;
+background-position: 50%;
+font-size: normal;
+}
+
+
+.bg-pic1{
+    object-fit: cover;
+    object-position: 50% 25.455%;
+    position: relative;
+    margin-bottom: -100px;
+    
+}

@@ -11,47 +11,60 @@
 
 <body>
     <header class="header">
-        <div class="'header_logo">
-            <img id="logo" src="img/logo.png" alt="logo">
+        <div class="header_box">
+            <div class="header_logo">
+                <img id="logo" src="img/logo.png" alt="logo">
+            </div>
+            <div class="header_nav">
+                <nav class="header_nav-links">
+                    <a class="link" href="">About</a>
+                    <a class="link" href="">Blog</a>
+                    <a class="link" href="">Travel Trips</a>
+                    <a class="link" href="">Gallery</a>
+                    <a class="link" href="">Contacts</a>
+                </nav>
+            </div>
         </div>
-        <div class="header_nav">
-            <nav class="header_nav-links">s
-                <ul class="manu_items">
-                    <li>About me</li>
-                    <li>Blog</li>
-                    <li>Travel Trips</li>
-                    <li>Gallery</li>
-                    <li>Contacts</li>
-                </ul>
-            </nav>
-        </div>
-        <div class="hero">
+    </header>
+    <div class="hero">
+        <div class="hero_main">
             <img class="curve-line" src="img/curve-line.png" alt="curve-line">
-            <h1>Hi! I'm Jack the Traveler</h1>
+            <h1>Hi! I'm <span class="jack">Jack</span> the Traveler</h1>
             <p class="hero_p">I share lifestyle and travel tips & life hacks</p>
-            <button class="hero_btn-story">My Story</button>
-            <button class="hero_btn-ask">Ask Me</button>
-            <img id="bg-pic1" src="img/bg-pic1.jpeg" alt="forest and a guy">
+            <div class="hero_btns">
+                <button class="hero_btn-story">My Story</button>
+                <button class="hero_btn-ask">Ask Me</button>
+            </div>
         </div>
+        <div class="hero_p"></div>
+        <img id="bg-pic1" src="img/bg-pic1.jpeg" alt="forest and a guy">
+    </div>
+    </div>
+
     </header>
     <main>
         <section class="main_about-me">
-            <h2>About Me</h2>
-            <div class="line"></div>
+
+
             <div class="main_about-me_text">
+                <h2 id="about-me">About Me</h2>
+                <div class="line"></div>
                 <h3>Hi, I'm Jack and I travel around the world</h3>
-                <p>I was born in Kansas, and like little Ellie, I always dreamed that a hurricane would take me
+                <p class="main_about-me_p">I was born in Kansas, and like little Ellie, I always dreamed that a
+                    hurricane would take me
                     somewhere to another country. And once I really ended up in another country - in China, studying at
                     a business school. There I began to travel a lot around Asia in my free time and then moved to work
                     in Munich.</p>
-                <p>I discovered the world of low-cost airlines and began to fly somewhere and see the world every
+                <p class="main_about-me_p">I discovered the world of low-cost airlines and began to fly somewhere and
+                    see the world every
                     weekend. Being somewhere in the 15th country, I realized that I had enough experience and knowledge
                     to share with others - and so this blog appeared. Here you will find useful tips, my travel
                     experiences, life hacks and the usual daily thoughts about everything that surrounds me.</p>
             </div>
+            <div class="empty-box"></div>
         </section>
         <section class="main_results">
-            <img class="curve-line" src="img/curve-line.png" alt="curve-line">
+            <img class="curve-line" src="img/curve-line-w.png" alt="curve-line">
             <h2 class="main_results-h2">Some of the Results I'm Proud of</h2>
             <div class="main_results-features">
                 <div class="main_results-features-items">
@@ -77,32 +90,44 @@
             </div>
         </section>
         <section class="stories">
-            <div class="main_srories">
-                <div class="main_stories_header">
-                    <h2>Latest Stories</h2>
-                    <div class="line"></div>
-                </div>
-                <div class="main_stories-narnia">
-                    <img id="main_stories-narnia_bg" src="img/real-life.jpeg" alt="narnia">
-                    <p class="data">7 Mar 2022</p>
-                    <h3 class="main_stories-narnia_header">REAL-LIFE NARNIA: A GUIDE TO JASPER, LAKE LOUISE & BANFF IN
-                        WINTER</h3>
-                    <p class="main_stories-narnia_text">While I had toured British Columbia and Alberta in the height of
-                        summer a decade ago, there’s no comparison to what it feels like...</p>
-                    <img class="avatar" src="img/avatar.jpeg" alt="avatar">
-                    <p class="main_stories_name">Jack</p>
-                </div>
-                <div class="main_stories-santo">
-                    <img id="main_stories-santo" src="img/santo.jpeg" alt="santo">
-                    <p class="data'">7 Mar 2022</p>
-                    <h3 class="main_stories-santo_header">SAVING SANTO STEFANO DI SESSANIO</h3>
-                    <p class="main_stories-santo_text">Is the fate of many unique, virtually abandoned villages in the
-                        unknown corner of Abruzzo sealed? Not if Swedish-Italian millionaire...</p>
-                    <img class="avatar" src="img/avatar.jpeg" alt="avatar">
-                    <p class="main_stories_name">Jack</p>
-                </div>
-                <button class="mail_stories">READ MORE</button>
+            <div class="main_stories_header">
+                <h2>Latest Stories</h2>
+                <div class="line"></div>
             </div>
+            <div class="main_srories">
+                <div class="main_story">
+                    <div class="main_stories_narnia">
+                        <p class="data">7 Mar 2022</p>
+                        <h3 class="main_story_header">REAL-LIFE NARNIA: A GUIDE TO JASPER, LAKE LOUISE & BANFF
+                            IN
+                            WINTER</h3>
+                        <p class="main_story_text">While I had toured British Columbia and Alberta in the
+                            height of
+                            summer a decade ago, there’s no comparison to what it feels like...</p>
+                        <div class="author">
+                            <img class="avatar" src="img/avatar.jpeg" alt="avatar">
+                            <p class="main_stories_name">Jack</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_story">
+                    <div class="main_stories-santo">
+                        <p class="data">7 Mar 2022</p>
+                        <h3 class="main_story_header">SAVING SANTO STEFANO DI SESSANIO</h3>
+                        <p class="main_story_text">Is the fate of many unique, virtually abandoned villages in
+                            the
+                            unknown corner of Abruzzo sealed? Not if Swedish-Italian millionaire...</p>
+                        <div class="author">
+                            <img class="avatar" src="img/avatar.jpeg" alt="avatar">
+                            <p class="main_stories_name">Jack</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="stories_btn">
+            <button class="mail_stories">READ MORE</button>
+        </div>
         </section>
     </main>
     <footer></footer>

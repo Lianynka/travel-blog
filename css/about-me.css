@@ -1,0 +1,116 @@
+.main_about-me{
+    background-image: url(../img/man-walking.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 70px;
+    padding-bottom: 10px;
+}
+.main_about-me_text{
+    padding: 43px 33px;
+    background: rgba(0, 0, 0, 0.589)  ;
+    margin: 25px;   
+    color: white;
+}
+@media (min-width: 767px){
+    .main_about-me{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+#about-me{
+    padding-top:-5px;
+}
+h3{
+    font-weight: 200;
+}
+.main_about-me_p{
+    margin-top: 25px;
+    font-weight: 200;
+}
+
+
+
+
+.main_results{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    min-width: 320px;
+    
+    max-width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+
+}
+.main_results-h2{
+    color:white;
+    text-align: center;
+    display:block;
+    font-weight: 800;
+    font-size: 42px;
+    margin: 20px;
+
+}
+.main_results-features{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+@media  (min-width: 767px){
+    .main_results-features{
+        display:grid;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr;
+    }
+    .main_results-features-items{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media  (min-width: 990px){
+    .main_results-features{
+        display:grid;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .main_results-features-items{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+.main_results-features-items{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.main_results-number{
+    color: var(--contrast-color);
+    font-weight: 800;
+    font-size: 42px;
+    
+    
+}
+.main_results-text {
+    color:white;
+    margin-bottom: 50px;
+    
+}

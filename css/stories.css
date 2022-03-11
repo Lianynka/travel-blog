@@ -1,0 +1,110 @@
+.stories{
+    background-image: url(../img/forest.jpeg);
+}
+.main_stories_header{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 800;
+}
+
+
+.main_srories{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+@media( min-width: 767px){
+    .main_srories{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 30px;
+    justify-content: center;
+    }
+}
+.main-story{
+    margin: 43px 33px;
+}
+.main_stories_narnia{
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/real-life.jpeg);
+    background-position: center;
+    background-size: cover; 
+    min-height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 24px;
+    margin-top: 20px;
+    
+    
+
+}
+.main_stories-santo{
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/santo.jpeg);
+    background-position: center;
+    background-size: cover; 
+    min-height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 24px;
+    margin-top: 20px;
+
+}
+.data{
+    margin-top: 12px;
+    font-size: 17px;
+    font-weight: 200;
+    color: white;
+}
+.main_story_header{
+    font-family: Poppins,sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    font-style: normal;
+    color: white;
+    margin-top: 20px;
+}
+.main_story_text{
+    margin-top: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    color:white;
+}
+.avatar{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.author{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.stories_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.mail_stories{
+    margin: 10px;
+    color: white;
+    background: var(--contrast-color);
+    padding: 19px 21px;
+    text-transform: uppercase; 
+    border:none;
+    text-decoration: none;
+    text-align: center;
+    background-position: 50%;
+    font-size: normal;
+    padding-top: 20px;
+    
+}
