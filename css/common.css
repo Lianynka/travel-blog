@@ -22,3 +22,14 @@ img{
     display:block ;
     width:100%;
 }
+
+.curve-line-w{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.curve-line{ 
+    width: 278px;
+    
+}

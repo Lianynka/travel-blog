@@ -1,0 +1,75 @@
+.time-counter {
+    position: relative;
+    min-width: 320px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+}
+
+.time-counter_head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.time-counter-h2 {
+    font-size: 34px;
+    line-height: 1.143;
+    font-weight: 700;
+    color: var(--main-color);
+    justify-content: center;
+    text-align: center;
+}
+
+.time-counter-p {
+    margin: 25px;
+    font-size: 20px;
+    line-height: 1.5;
+    color: var(--main-color);
+    justify-content: center;
+    text-align: center;
+}
+
+.time-counter_main {
+    margin: 45px;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center
+}
+
+.countdown_menu {
+    display: grid;
+
+    justify-content: space-around;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.countdown-num {
+    font-size: 34px;
+    line-height: 1.143;
+    font-weight: 700;
+    color: var(--main-color);
+    justify-content: center;
+    text-align: center;
+}
+
+.countdown-name {
+    font-weight: 200;
+    color: var(--add-color)
+}
+
+.vertical-line {
+    position: absolute;
+    width: 7px;
+    max-height: 90px;
+    margin: 0 10px;
+    background-color: var(--add-color);
+}
