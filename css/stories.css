@@ -1,7 +1,10 @@
-.stories{
+.stories {
     background-image: url(../img/forest.jpeg);
+    background-repeat: no-repeat;
+    font-family: "Poppins", sans-serif;
 }
-.main_stories_header{
+
+.main_stories_header {
     display: flex;
     flex-direction: column;
     padding-top: 30px;
@@ -13,97 +16,139 @@
 }
 
 
-.main_srories{
+.main_srories {
     display: flex;
     flex-direction: column;
-    margin: 40px;
+    margin-bottom: 40px;
+
 }
-@media( min-width: 767px){
-    .main_srories{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    gap: 30px;
-    justify-content: center;
+
+@media(min-width: 767px) {
+    .main_srories {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 70px;
+        justify-content: center;
+        padding: 0 70px;
+
+
+    }
+
+    .main_stories_narnia {
+        height: 550px;
+    }
+
+
+    .main_stories-santo {
+        height: 550px;
+    }
+
+
+}
+
+@media(max-width: 1000px) {
+    .main_srories {
+        gap: 30px;
+        padding: 0 30px;
+    }
+
+    .main_stories_narnia {
+        height: 400px;
+    }
+
+
+    .main_stories-santo {
+        height: 400px;
     }
 }
-.main-story{
+
+.main-story {
     margin: 43px 33px;
 }
-.main_stories_narnia{
-    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/real-life.jpeg);
-    background-position: center;
-    background-size: cover; 
-    min-height: 380px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding: 24px;
-    margin-top: 20px;
-    
-    
 
-}
-.main_stories-santo{
-    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/santo.jpeg);
+.main_stories_narnia {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/real-life.jpeg);
     background-position: center;
-    background-size: cover; 
-    min-height: 380px;
+    background-size: cover;
+    min-height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     padding: 24px;
     margin-top: 20px;
 
+
+
 }
-.data{
+
+.main_stories-santo {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/santo.jpeg);
+    background-position: center;
+    background-size: cover;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 24px;
+    margin-top: 20px;
+
+}
+
+.data {
     margin-top: 12px;
     font-size: 17px;
     font-weight: 200;
     color: white;
 }
-.main_story_header{
-    font-family: Poppins,sans-serif;
+
+.main_story_header {
+    font-family: Poppins, sans-serif;
     font-weight: 500;
     text-decoration: none;
     font-style: normal;
     color: white;
     margin-top: 20px;
 }
-.main_story_text{
+
+.main_story_text {
     margin-top: 20px;
     font-weight: 400;
     text-decoration: none;
     font-style: normal;
-    color:white;
+    color: white;
 }
-.avatar{
+
+.avatar {
     height: 32px;
     width: 32px;
     border-radius: 50%;
     margin-right: 10px;
 }
-.author{
+
+.author {
     margin-top: 20px;
     display: flex;
     align-items: center;
     color: white;
 }
-.stories_btn{
+
+.stories_btn {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
-.mail_stories{
+
+.mail_stories {
     margin: 10px;
     color: white;
     background: var(--contrast-color);
     padding: 19px 21px;
-    text-transform: uppercase; 
-    border:none;
+    text-transform: uppercase;
+    border: none;
     text-decoration: none;
     text-align: center;
     background-position: 50%;
     padding-top: 20px;
-    
+
 }

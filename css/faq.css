@@ -1,0 +1,98 @@
+.faq {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(122, 122, 122, 1), rgba(34, 42, 46, 1));
+    font-family: 'Poppins', sans-serif;
+}
+
+.faq-h2 {
+    font-weight: 700;
+    color: white;
+    line-height: 1.14;
+    text-align: center;
+    margin-bottom: 45px;
+    font-size: 42px;
+}
+
+.accordion {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 0 40px;
+}
+
+.accordion-item {
+    background-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    font-size: 28px;
+
+}
+
+.accordion-button {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+    color: white;
+}
+
+.accordion-button:not(.collapsed)::after {
+    filter:
+        brightness(0%) invert(100%)
+}
+
+.accordion-button:focus {
+    box-shadow: inherit;
+}
+
+.accordion-collapse {
+    background-color: transparent;
+    color: white;
+}
+
+.collapse {
+    background-color: transparent;
+    color: white;
+}
+
+.accordion-header {
+    background-color: transparent;
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.accordion-body {
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+.faq-btn {
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.faq-btn-more {
+    padding: 19px 21px;
+    border-color: #f2efe9;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0;
+    background-color: transparent;
+    color: white;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 1em;
+    letter-spacing: .06em;
+}

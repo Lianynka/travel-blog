@@ -11,8 +11,44 @@
 </head>
 
 <body>
+
+
     <header class="header">
+
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <div class="header_logo">
+                        <img id="logo" src="img/logo.png" alt="logo">
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Travel Trips</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
         <div class="header_box">
+            <!--
             <div class="header_logo">
                 <img id="logo" src="img/logo.png" alt="logo">
             </div>
@@ -25,22 +61,25 @@
                     <a class="link" href="">Contacts</a>
                 </nav>
             </div>
-        </div>
-        <div class="hero">
-            <div class="hero_main">
-                <div class="curve-line-w">
-                    <img class="curve-line" src="img/curve-line.png" alt="curve-line">
+        </div>-->
+            <div class="hero">
+                <div class="hero_main">
+                    <div class="hero-text">
+                        <div class="curve-line-w">
+                            <img class="curve-line" src="img/curve-line.png" alt="curve-line">
+                        </div>
+                        <h1 class="hero-h1">Hi! I'm <span class="jack">Jack</span> the Traveler</h1>
+                        <p class="hero_p">I share lifestyle and travel tips & life hacks</p>
+                        <div class="hero_btns">
+                            <button class="hero_btn-story">My Story</button>
+                            <button class="hero_btn-ask">Ask Me</button>
+                        </div>
+                    </div>
                 </div>
-                <h1>Hi! I'm <span class="jack">Jack</span> the Traveler</h1>
-                <p class="hero_p">I share lifestyle and travel tips & life hacks</p>
-                <div class="hero_btns">
-                    <button class="hero_btn-story">My Story</button>
-                    <button class="hero_btn-ask">Ask Me</button>
+                <div class="hero_pic">
+                    <img id="bg-pic1" src="img/bg-pic1.jpeg" alt="forest and a guy">
                 </div>
             </div>
-            <div class="hero_p"></div>
-            <img id="bg-pic1" src="img/bg-pic1.jpeg" alt="forest and a guy">
-        </div>
     </header>
     <main>
         <section class="main_about-me">
@@ -52,8 +91,10 @@
                     hurricane would take me
                     somewhere to another country. And once I really ended up in another country - in China, studying at
                     a business school. There I began to travel a lot around Asia in my free time and then moved to work
-                    in Munich.</p>
-                <p class="main_about-me_p">I discovered the world of low-cost airlines and began to fly somewhere and
+                    in Munich.
+                    <br>
+                    <br>
+                    I discovered the world of low-cost airlines and began to fly somewhere and
                     see the world every
                     weekend. Being somewhere in the 15th country, I realized that I had enough experience and knowledge
                     to share with others - and so this blog appeared. Here you will find useful tips, my travel
@@ -161,40 +202,91 @@
                 </div>
         </section>
         <section class="instagram">
-            <div class="curve-line-w">
+            <div class="instagram_header">
+                <div class="curve-line-w"></div>
                 <div class="instagram_text"></div>
                 <img class="curve-line" src="img/curve-line.png" alt="curve-line">
                 <h2 class="instagram-h2">What to Figure Out More?</h2>
                 <div class="line"></div>
-                <div class="intagram-link">
-                    <p>Subscribe to my Instagram: <span class="inst-link">@jack_the_traveler </span>
+                <div class="instagram-sub">
+                    <p>Subscribe to my Instagram: <span id="inst-link">@jack_the_traveler </span>
                     </p>
                 </div>
             </div>
+            <div class="instagram-carousel-box">
+                <div id="instagram-carousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type=" button" data-bs-target="#instagram-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#instagram-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#instagram-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#instagram-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#instagram-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#instagram-carousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                        <button type="button" data-bs-target="#instagram-carousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                        <button type="button" data-bs-target="#instagram-carousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                        <button type="button" data-bs-target="#instagram-carousel" data-bs-slide-to="8" aria-label="Slide 9"></button>
+
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="gallery/bags.jpeg" class="d-block w-100" alt="bags">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="gallery/lake.jpeg" class="d-block w-100" alt="lake">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="gallery/man-walking.jpeg" class="d-block w-100" alt="man-walking">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="gallery/mauntain.jpeg" class="d-block w-100" alt="mauntain">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="gallery/port.jpeg" class="d-block w-100" alt="port">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="gallery/rivulet.jpeg" class="d-block w-100" alt="rivulet">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="gallery/road.jpeg" class="d-block w-100" alt="road">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="gallery/table.jpeg" class="d-block w-100" alt="table">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="gallery/waterfall.jpeg" class="d-block w-100" alt="waterfall">
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </section>
         <section class="quote">
-            <div class="quote-text">
-                <div class="forward-quote"></div>
-                <div class="quote-p">
-                    <p>Because in the end, you won’t remember the time you spent working in the office or mowing your lawn. Climb that goddamn mountain.</p>
-                    <p class="quote-author">Jack Kerouac</p>
+            <div class="quote-box">
+                <div class=" quote-vertical-line"></div>
+                <div class=" quote-text">
+                    <div class="quote__icon-wrapper">
+                        <img id="forward-quote" src="img/forward-quote.png" alt="forward-quote"></div>
+                    <div class="quote-p">
+                        <p>Because in the end, you won’t remember the time you spent working in the office or mowing your lawn. Climb that goddamn mountain.</p>
+                        <p class="quote-author">Jack Kerouac</p>
+                    </div>
                 </div>
             </div>
+
         </section>
         <section class="faq">
             <div class="faq-block">
-                <div class="faq-h2">
-                    <h2>FAQ</h2>
+                <div class="faq-h2-box">
+                    <h2 class="faq-h2">FAQ</h2>
                 </div>
                 <div class="accordion">
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <h2 class=" accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                 Do I need Travel Insurance?
                             </button>
                         </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 There are a variety of travel insurance plans and options, but they typically cover emergency medical coverage, evacuation, lost luggage, and trip cancellation.
 
@@ -230,33 +322,24 @@
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                 What should I pack a survival kit?
                             </button>
                         </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                ● Neosporin
-                                ● Bandaids
-                                ● Ibuprofen
-                                ● Earplugs
-                                ● Eye mask
-                                ● Sleep aid
-                                ● Headphones
-                                ● Prescription medications
-                                ● Hand sanitizer.
-
+                                Neosporin, Bandaids, Ibuprofen, Earplugs, Eye mask, Sleep aid, Headphones, Prescription medications, Hand sanitizer.
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                 What are the best snacks for the airplane or airport?
                             </button>
                         </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 Raw nuts, seeds (pumpkin or sunflower), unsweetened dry fruit, raw trail mix, healthy protein bars, fresh fruit (apples, bananas, oranges), berries (strawberries, blueberries), celery sticks, carrot sticks, grape tomatoes, sliced cucumber sticks (or mini cucumbers), instant oatmeal, low sugar cereal or others.
                             </div>
@@ -273,6 +356,10 @@
     <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
 </body>
+
+</html>
+
+</html>
 
 </html>
 

@@ -1,0 +1,44 @@
+.instagram {
+    padding: 0 32px;
+    margin: 0 0 65px 0;
+}
+
+.instagram_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.instagram-h2 {
+    margin-top: 20px;
+    font-size: 34px;
+    line-height: 1.143;
+    color: var(--contrast-color);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+.instagram-sub {
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+
+}
+
+#inst-link {
+    color: var(--contrast-color)
+}
+
+.instagram-carousel-box {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#instagram-carousel {
+    max-width: 900px;
+}
