@@ -1,0 +1,54 @@
+.tips{
+    padding: 65px 24px;
+    background-color: #222a2f;
+
+}
+.tips-main-header{
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.tips-h2{
+    color: white;
+    padding-top: 20px;
+    font-family: Poppins,sans-serif;
+    font-weight: 700;
+    
+}
+.tips-container{
+    margin-top: 45px;
+    
+}
+.tips-card{
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+
+}
+.tips_story{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.tips_header{
+    font-family: Poppins,sans-serif;
+    font-weight: 500;
+    color:white;
+}
+.tips_text{
+    font-family: Poppins,sans-serif;
+    font-weight: 400;
+    color:white;
+    margin-top: 20px;
+}
+.special-img{
+    display: block;
+    position: relative;
+    min-height: 32px;
+    padding-top: 60%;
+    overflow: hidden;
+}
+.tips-image-second{
+    width:100%;
+}
