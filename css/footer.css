@@ -26,7 +26,8 @@
         padding: 0;
     }
     .legal__links {
-        padding-top: 0;
+        padding-bottom: 0;
+        
     }
 }
 .footer__addr {
@@ -142,13 +143,13 @@
 
 }
 .legal {
-    padding-top: 20px;
+    padding: 20px;
     font-size: 14px;
     line-height: 1.6;
     font-weight: 300;
 }
 .legal__links {
-    padding-bottom: 20px;
+    padding:20px;
     font-size: 14px;
     line-height: 1.6;
     font-weight: 300;
