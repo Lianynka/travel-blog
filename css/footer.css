@@ -22,7 +22,8 @@ padding: 65px 24px 0 24px;
   .footer-bottom-legal{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0;
   }
 }
 .footer__addr{
