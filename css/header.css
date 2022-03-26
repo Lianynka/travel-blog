@@ -91,7 +91,11 @@
     line-height: 1em;
     letter-spacing: .06em;
 }
-
+.hero_btn-story:hover{
+    color: white;
+    background-color: rgb(68,80,58) ;
+    transition: 0.3s ease-in-out;
+}
 .hero_btn-ask {
     margin: 10px;
     color: var(--main-color);
@@ -108,7 +112,12 @@
     letter-spacing: .06em;
     font-weight: 600;
 }
+.hero_btn-ask:hover{
+    color: white;
+    background: var(--add-color);
+    transition: 0.3s ease-in-out;
 
+}
 
 .bg-pic1 {
     position: relative;

@@ -91,8 +91,13 @@
     border-radius: 0;
     background-color: transparent;
     color: white;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 12px;
     line-height: 1em;
     letter-spacing: .06em;
+}
+.faq-btn-more:hover{
+    background-color: white;
+    color:rgb(48,54,59);
+    transition: 0.3s ease-in-out;
 }

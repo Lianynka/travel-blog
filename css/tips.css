@@ -16,9 +16,9 @@ align-items: center;
     font-weight: 700;
     
 }
+
 .tips-container{
-    margin-top: 45px;
-    
+    margin-top: 45px;    
 }
 
 .tips-card{
@@ -37,11 +37,17 @@ align-items: center;
     font-weight: 500;
     color:white;
 }
+.tips_header:hover{
+    text-decoration: underline;
+}
 .tips_text{
     font-family: Poppins,sans-serif;
     font-weight: 400;
     color:white;
     margin-top: 20px;
+}
+.tips_text:hover{
+    text-decoration: underline;
 }
 .special-img{
     position: absolute;
@@ -122,4 +128,8 @@ background-position: center;
     height: 37px;
     width: 37px;
     margin: 0 3px 5px 3px;
+}
+.media-icon:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
 }

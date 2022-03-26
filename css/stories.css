@@ -1,5 +1,7 @@
 .stories {
     background-image: url(../img/forest.jpeg);
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     font-family: "Poppins", sans-serif;
 }
@@ -137,6 +139,11 @@
     align-items: center;
     justify-content: center;
 
+}
+.mail_stories:hover{
+    color: white;
+    background-color: rgb(68,80,58) ;
+    transition: 0.3s ease-in-out;
 }
 
 .mail_stories {

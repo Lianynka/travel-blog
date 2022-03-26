@@ -16,8 +16,8 @@
 
 @media (min-width: 767px) {
     .main_about-me {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: flex;
+        justify-content: flex-start;
         padding-top: 105px;
         padding-left: 40px;
     }
@@ -60,7 +60,6 @@ h3 {
     background-color: rgb(0, 0, 0);
     position: relative;
     min-width: 320px;
-
     max-width: 100%;
     padding-left: 24px;
     padding-right: 24px;

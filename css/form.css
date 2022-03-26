@@ -12,7 +12,7 @@
     background-color: white;
 }
 @media (min-width: 767px){
-    .form{
+    .form-container{
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
     }
@@ -41,6 +41,10 @@
 .form-link{
     color: var(--contrast-color);
 }
+.form-link:hover{
+    text-decoration: underline;
+    color: rgb(68,80,58) ;
+}
 .form-input-block{
     display: flex;
     flex-direction: column;
@@ -68,4 +72,9 @@
     font-size: 12px;
     line-height: 1em;
     letter-spacing: .06em;
+}
+#submit-btn:hover{
+    color: white;
+    background-color: rgb(68,80,58) ;
+    transition: 0.3s ease-in-out;
 }
