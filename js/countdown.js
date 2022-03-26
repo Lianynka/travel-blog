@@ -3,11 +3,10 @@ const hours = document.getElementById('hours');
 const minutes = document.getElementById('minutes');
 const seconds = document.getElementById('seconds');
 const countdown = document.getElementById('countdown');
+const loading = document.getElementById('loading');
 
 const currentYear = new Date().getFullYear();
-const targetTime = new Date(`May 31 ${
-    currentYear
-} 00:00:00`);
+const targetTime = new Date(`May 31 ${currentYear} 00:00:00`);
 
 function updateCountdown() {
     const currentTime = new Date();
@@ -26,7 +25,6 @@ function updateCountdown() {
 
 
 setTimeout(() => {
-    loading.remove();
     countdown.style.display = 'flex';
 }, 1000);
 

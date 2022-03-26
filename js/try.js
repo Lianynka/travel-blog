@@ -17,7 +17,7 @@ const hours = Math.floor(seconds / 3600)
 const timerDislayHours = document.querySelector('.countdown-num-hour');
 const timerDislayDays = document.querySelector('.countdown-num-day');
 
-const loading = document.getElementById('loading');
+
 
 let countdown; 
 const timerDislaySeconds = document.querySelector('.countdown-num-sec');

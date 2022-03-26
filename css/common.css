@@ -33,3 +33,7 @@ img{
     width: 278px;
     
 }
+
+body._lock{
+    overflow: hidden;
+}
