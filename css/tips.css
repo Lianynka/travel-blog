@@ -77,7 +77,7 @@ align-items: center;
         
     }
     .tips-card{
-        flex-basis: 33.33333%;
+    flex-basis: 33.33333%;
     max-width: 33.33333%;
     }
 }

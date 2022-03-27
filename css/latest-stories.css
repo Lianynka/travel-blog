@@ -6,4 +6,31 @@
     margin-top: 20px;
     color: var(--contrast-color);
     font-size: 42px;
+    text-align: center;
+}
+.header, 
+.text{
+color: var(--main-color);
+}
+.header:hover{
+    text-decoration: underline;
+}
+.text:hover{
+    text-decoration: underline;
+}
+.data-text{
+    margin-top: 12px;
+    font-size: 17px;
+    font-weight: 200;
+    color: var(--main-color);
+}
+.data-text:hover{
+text-decoration: underline;
+}
+a {
+    text-decoration: none;
+    color: var(--main-color);
+}
+a:hover{
+    color: var(--main-color);
 }
