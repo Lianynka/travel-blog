@@ -1,3 +1,4 @@
+
 const menuLinks = document.querySelectorAll('.menu-link[data-goto]');
 if (menuLinks.length > 0) {
     menuLinks.forEach(menuLink => {
@@ -30,3 +31,5 @@ if (iconMenu) {
         menuBody.classList.toggle('_active');
     });
 }
+
+
