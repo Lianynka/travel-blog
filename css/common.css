@@ -46,3 +46,8 @@ body._lock{
 a {
     text-decoration: none;
 }
+
+a:hover{
+    text-decoration: underline;
+    color: var (--main-color);
+}
