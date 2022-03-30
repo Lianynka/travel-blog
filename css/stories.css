@@ -64,6 +64,11 @@
     }
 }
 
+.main-stories-link:hover{
+    text-dercoration: underline;
+    color: white;
+}
+
 .main-story {
     margin: 43px 33px;
 }
